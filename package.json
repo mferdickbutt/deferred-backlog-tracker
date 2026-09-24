@@ -1,0 +1,9 @@
+{
+  "name": "deferred-backlog-tracker",
+  "private": true,
+  "description": "Deferred revenue and backlog burn tracker with baked first-paint HTML.",
+  "scripts": {
+    "render": "node scripts/render-static.js",
+    "test": "bash scripts/test.sh"
+  }
+}

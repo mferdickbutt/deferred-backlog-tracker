@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "title": "Deferred Revenue and Backlog Burn Tracker",
+    "currency": "USD",
+    "updated": "2026-09-23",
+    "coverage": "2025-04/2026-09",
+    "monthCount": 18,
+    "sample": true,
+    "note": "Sample, non-confidential deferred revenue additions, recognition, and ending backlog for a fictional software firm. Not live finance data."
+  },
+  "openingBacklog": {
+    "subscription": 4800000,
+    "services": 1650000,
+    "support": 1120000,
+    "license": 730000
+  },
+  "targets": {
+    "backlogBurn": 0.09,
+    "monthsOfCoverage": 10,
+    "backlogMix": {
+      "subscription": 0.55,
+      "services": 0.2,
+      "support": 0.15,
+      "license": 0.1
+    }
+  },
+  "months": [
+    {
+      "month": "2025-04",
+      "additions": {
+        "subscription": 548800,
+        "services": 196000,
+        "support": 137200,
+        "license": 98000
+      },
+      "recognition": {
+        "subscription": 393600,
+        "services": 135300,
+        "support": 91840,
+        "license": 59860
+      },
+      "endingBacklog": {
+        "subscription": 4955200,
+        "services": 1710700,
+        "support": 1165360,
+        "license": 768140
+      }
+    },
+    {
+      "month": "2025-05",
+      "additions": {
+        "subscription": 565600,
+        "services": 202000,
+        "support": 141400,
+        "license": 101000
+      },
+      "recognition": {
+        "subscription": 426147,
+        "services": 147120,
+        "support": 100221,
+        "license": 66060
+      },
+      "endingBacklog": {
+        "subscription": 5094653,
+        "services": 1765580,
+        "support": 1206539,
+        "license": 803080
+      }
+    },
+    {
+      "month": "2025-06",
+      "additions": {
+        "subscription": 585200,
+        "services": 209000,
+        "support": 146300,
+        "license": 104500
+      },
+      "recognition": {
+        "subscription": 463614,
+        "services": 160668,
+        "support": 109795,
+        "license": 73080
+      },
+      "endingBacklog": {
+        "subscription": 5216239,
+        "services": 1813912,
+        "support": 1243044,
+        "license": 834500
+      }
+    },
+    {
+      "month": "2025-07",
+      "additions": {
+        "subscription": 554400,
+        "services": 198000,
+        "support": 138600,
+        "license": 99000
+      },
+      "recognition": {
+        "subscription": 406867,
+        "services": 141485,
+        "support": 96957,
+        "license": 65091
+      },
+      "endingBacklog": {
+        "subscription": 5363772,
+        "services": 1870427,
+        "support": 1284687,
+        "license": 868409
+      }
+    },
+    {
+      "month": "2025-08",
+      "additions": {
+        "subscription": 604800,
+        "services": 216000,
+        "support": 151200,
+        "license": 108000
+      },
+      "recognition": {
+        "subscription": 472012,
+        "services": 164598,
+        "support": 113052,
+        "license": 76420
+      },
+      "endingBacklog": {
+        "subscription": 5496560,
+        "services": 1921829,
+        "support": 1322835,
+        "license": 899989
+      }
+    },
+    {
+      "month": "2025-09",
+      "additions": {
+        "subscription": 630000,
+        "services": 225000,
+        "support": 157500,
+        "license": 112500
+      },
+      "recognition": {
+        "subscription": 516677,
+        "services": 180652,
+        "support": 124346,
+        "license": 84599
+      },
+      "endingBacklog": {
+        "subscription": 5609883,
+        "services": 1966177,
+        "support": 1355989,
+        "license": 927890
+      }
+    },
+    {
+      "month": "2025-10",
+      "additions": {
+        "subscription": 610400,
+        "services": 218000,
+        "support": 152600,
+        "license": 109000
+      },
+      "recognition": {
+        "subscription": 476840,
+        "services": 167125,
+        "support": 115259,
+        "license": 78871
+      },
+      "endingBacklog": {
+        "subscription": 5743443,
+        "services": 2017052,
+        "support": 1393330,
+        "license": 958019
+      }
+    },
+    {
+      "month": "2025-11",
+      "additions": {
+        "subscription": 649600,
+        "services": 232000,
+        "support": 162400,
+        "license": 116000
+      },
+      "recognition": {
+        "subscription": 516910,
+        "services": 181535,
+        "support": 125400,
+        "license": 86221
+      },
+      "endingBacklog": {
+        "subscription": 5876133,
+        "services": 2067517,
+        "support": 1430330,
+        "license": 987798
+      }
+    },
+    {
+      "month": "2025-12",
+      "additions": {
+        "subscription": 677600,
+        "services": 242000,
+        "support": 169400,
+        "license": 121000
+      },
+      "recognition": {
+        "subscription": 569985,
+        "services": 200549,
+        "support": 138742,
+        "license": 95816
+      },
+      "endingBacklog": {
+        "subscription": 5983748,
+        "services": 2108968,
+        "support": 1460988,
+        "license": 1012982
+      }
+    },
+    {
+      "month": "2026-01",
+      "additions": {
+        "subscription": 663600,
+        "services": 237000,
+        "support": 165900,
+        "license": 118500
+      },
+      "recognition": {
+        "subscription": 496651,
+        "services": 175044,
+        "support": 121262,
+        "license": 84078
+      },
+      "endingBacklog": {
+        "subscription": 6150697,
+        "services": 2170924,
+        "support": 1505626,
+        "license": 1047404
+      }
+    },
+    {
+      "month": "2026-02",
+      "additions": {
+        "subscription": 700000,
+        "services": 250000,
+        "support": 175000,
+        "license": 125000
+      },
+      "recognition": {
+        "subscription": 547412,
+        "services": 193212,
+        "support": 134001,
+        "license": 93219
+      },
+      "endingBacklog": {
+        "subscription": 6303285,
+        "services": 2227712,
+        "support": 1546625,
+        "license": 1079185
+      }
+    },
+    {
+      "month": "2026-03",
+      "additions": {
+        "subscription": 733600,
+        "services": 262000,
+        "support": 183400,
+        "license": 131000
+      },
+      "recognition": {
+        "subscription": 579902,
+        "services": 204949,
+        "support": 142289,
+        "license": 99286
+      },
+      "endingBacklog": {
+        "subscription": 6456983,
+        "services": 2284763,
+        "support": 1587736,
+        "license": 1110899
+      }
+    },
+    {
+      "month": "2026-04",
+      "additions": {
+        "subscription": 716800,
+        "services": 256000,
+        "support": 179200,
+        "license": 128000
+      },
+      "recognition": {
+        "subscription": 516558,
+        "services": 182781,
+        "support": 127019,
+        "license": 88872
+      },
+      "endingBacklog": {
+        "subscription": 6657225,
+        "services": 2357982,
+        "support": 1639917,
+        "license": 1150027
+      }
+    },
+    {
+      "month": "2026-05",
+      "additions": {
+        "subscription": 764400,
+        "services": 273000,
+        "support": 191100,
+        "license": 136500
+      },
+      "recognition": {
+        "subscription": 579178,
+        "services": 205144,
+        "support": 142673,
+        "license": 100053
+      },
+      "endingBacklog": {
+        "subscription": 6842447,
+        "services": 2425838,
+        "support": 1688344,
+        "license": 1186474
+      }
+    },
+    {
+      "month": "2026-06",
+      "additions": {
+        "subscription": 795200,
+        "services": 284000,
+        "support": 198800,
+        "license": 142000
+      },
+      "recognition": {
+        "subscription": 650033,
+        "services": 230455,
+        "support": 160393,
+        "license": 112714
+      },
+      "endingBacklog": {
+        "subscription": 6987614,
+        "services": 2479383,
+        "support": 1726751,
+        "license": 1215760
+      }
+    },
+    {
+      "month": "2026-07",
+      "additions": {
+        "subscription": 781200,
+        "services": 279000,
+        "support": 195300,
+        "license": 139500
+      },
+      "recognition": {
+        "subscription": 586960,
+        "services": 208268,
+        "support": 145047,
+        "license": 102124
+      },
+      "endingBacklog": {
+        "subscription": 7181854,
+        "services": 2550115,
+        "support": 1777004,
+        "license": 1253136
+      }
+    },
+    {
+      "month": "2026-08",
+      "additions": {
+        "subscription": 828800,
+        "services": 296000,
+        "support": 207200,
+        "license": 148000
+      },
+      "recognition": {
+        "subscription": 653549,
+        "services": 232060,
+        "support": 161707,
+        "license": 114036
+      },
+      "endingBacklog": {
+        "subscription": 7357105,
+        "services": 2614055,
+        "support": 1822497,
+        "license": 1287100
+      }
+    },
+    {
+      "month": "2026-09",
+      "additions": {
+        "subscription": 865200,
+        "services": 309000,
+        "support": 216300,
+        "license": 154500
+      },
+      "recognition": {
+        "subscription": 647425,
+        "services": 230037,
+        "support": 160380,
+        "license": 113265
+      },
+      "endingBacklog": {
+        "subscription": 7574880,
+        "services": 2693018,
+        "support": 1878417,
+        "license": 1328335
+      }
+    }
+  ]
+}
